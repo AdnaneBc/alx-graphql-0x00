@@ -1,9 +1,9 @@
 # Episode Queries – ALX GraphQL Project
 
-This directory contains GraphQL queries and responses for retrieving episode data by ID.
+This project contains GraphQL queries and responses for retrieving episode data by ID using the Rick and Morty API.
 
-Each `.graphql` file contains a query for a specific episode (IDs 1 to 4).  
-Each `.json` file contains the corresponding API response from the Rick and Morty GraphQL API.
+Each `.graphql` file fetches a specific episode's details.  
+Each corresponding `.json` file contains the API response.
 
 **Endpoint:** https://rickandmortyapi.com/graphql  
 **Fields:** id, name, air_date, episode
