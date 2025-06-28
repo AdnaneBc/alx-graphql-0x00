@@ -1,8 +1,9 @@
-# Character Queries – ALX GraphQL Project
+# Paginated Character Queries – ALX GraphQL Project
 
-This directory contains GraphQL queries and responses for retrieving character information by ID.
+This directory contains GraphQL queries and responses for fetching paginated character data from the Rick and Morty API.
 
-Each `.graphql` file contains a query for a specific character (IDs 1 to 4).  
-Each `.json` file contains the corresponding API response from the GraphQL endpoint.
+Each `.graphql` file contains a query for a specific page of results (pages 1–4).  
+Each `.json` file contains the actual API response.
 
-**GraphQL Endpoint**: https://rickandmortyapi.com/graphql
+**Endpoint:** https://rickandmortyapi.com/graphql  
+**Fields Retrieved:** id, name, status, image
